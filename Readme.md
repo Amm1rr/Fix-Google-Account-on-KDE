@@ -21,7 +21,7 @@ This repository provides a script to address common problems with KDE's integrat
    Use the following single command to download, make executable, and run the script:
 
    ```bash
-   curl -sSL https://example.com/fix_kde_google_integration.sh -o fix_kde_google_integration.sh && chmod +x fix_kde_google_integration.sh && ./fix_kde_google_integration.sh
+   curl -sSL https://raw.githubusercontent.com/Amm1rr/Fix-Google-Account-on-KDE/refs/heads/main/fix_kde_google_integration.sh -o fix_kde_google_integration.sh && chmod +x fix_kde_google_integration.sh && ./fix_kde_google_integration.sh
    ```
 
 2. **Restart the KDE service** (Optional):
