@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script to fix Google Drive integration issue by updating the google.provider file in KDE 6
+# Script to fix Google Drive integration issue by updating the google.provider file in KDE
 
 # Google Service
 PROVIDER_FILE="/usr/share/accounts/providers/kde/google.provider"
