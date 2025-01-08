@@ -5,7 +5,7 @@ Easily resolve Google Account and Drive integration issues on KDE with this simp
 This repository provides a script to address common problems with KDE's integration with Google services, including calendar, contacts, and Drive access.
 
 <p align="center">
-  <img src="this-app-is-blocked.jpg" alt="This app is blocked">
+  <img src="./assets/this-app-is-blocked.jpg" alt="This app is blocked">
 </p>
 
 ## Features:
