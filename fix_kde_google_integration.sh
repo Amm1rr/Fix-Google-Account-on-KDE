@@ -3,20 +3,20 @@
 # Script to fix Google Drive integration issue by updating the google.provider file in KDE
 
 # Google Service
-PROVIDER_FILE="/usr/share/accounts/providers/kde/google.provider"
+PROVIDER_FILE="$HOME/.local/share/accounts/providers/google.provider"
 
 # Backup the original file
 if [ -f "$PROVIDER_FILE" ]; then
   echo "Backing up the original file..."
-  sudo cp "$PROVIDER_FILE" "${PROVIDER_FILE}.backup"
+  cp "$PROVIDER_FILE" "${PROVIDER_FILE}.backup"
   echo "Backup created at ${PROVIDER_FILE}.backup"
 else
-  echo "Error: google.provider file not found at $PROVIDER_FILE. Exiting."
-  exit 1
+  echo "Createing empty google.provider file.."
+  mkdir -p "$(dirname $PROVIDER_FILE)" && touch $PROVIDER_FILE
 fi
 
 # Write the updated configuration to the file
-echo "Updating the google.provider file..."
+echo "Updating the local google.provider file..."
 sudo tee "$PROVIDER_FILE" >/dev/null <<EOL
 <?xml version="1.0" encoding="UTF-8"?>
 <provider id="google">
