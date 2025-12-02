@@ -81,7 +81,7 @@ makepkg -si
 "This app is blocked"
 
 **Affected Systems**:  
-All Linux distributions using KDE 5.24+
+All Linux distributions using KDE 5.24+ / 6.0+
 
 **Root Cause**:  
 Invalid OAuth Client ID in KDE's Google provider configuration:
