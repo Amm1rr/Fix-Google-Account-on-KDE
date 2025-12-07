@@ -26,7 +26,7 @@ The solution involves strategic configuration modifications validated across six
 
 ### Prerequisites
 
-- KDE Plasma 5.24+ environment
+- KDE Plasma 5.24+ / 6.0+ environment
 - `kaccounts-integration` package installed
 - Active internet connection
 
